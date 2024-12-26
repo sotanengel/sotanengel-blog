@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Under Construction</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #fafafa;
+        color: #333;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+      }
+
+      .wip-banner {
+        background: #ffe8cc;
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        border-left: 4px solid #ff9500;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        color: #1a1a1a;
+      }
+
+      .placeholder {
+        height: 24px;
+        background: #eee;
+        border-radius: 4px;
+        margin: 10px 0;
+        animation: pulse 2s infinite;
+      }
+
+      .placeholder.wide {
+        width: 100%;
+      }
+      .placeholder.medium {
+        width: 60%;
+      }
+      .placeholder.narrow {
+        width: 30%;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0.6;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.6;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wip-banner">このブログは現在作成中です。近日公開予定。</div>
+
+      <h1>sotanengel-blog</h1>
+
+      <div class="placeholder wide"></div>
+      <div class="placeholder medium"></div>
+      <div class="placeholder narrow"></div>
+      <br />
+      <div class="placeholder wide"></div>
+      <div class="placeholder medium"></div>
+      <div class="placeholder wide"></div>
+      <br />
+      <div class="placeholder medium"></div>
+      <div class="placeholder narrow"></div>
+    </div>
+  </body>
+</html>
